@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="com.jiramonk.comppage.compimp-tests" name="compimp" plugins-version="2">
+  <plugin-info>
+    <description>This is the com.jiramonk.comppage:compimp plugin for Atlassian Refapp.</description>
+    <version>0.1</version>
+    <vendor name="jiramonks Company" url="http://www.jiramonks.com/"/>
+  </plugin-info>
+  <!-- from our base plugin -->
+  <component-import key="myComponent" interface="com.jiramonk.comppage.api.MyPluginComponent"/>
+  <!-- from the product container -->
+  <component-import key="applicationProperties" interface="com.atlassian.sal.api.ApplicationProperties"/>
+  <component key="my-component-wired-test" class="it.com.jiramonk.comppage.MyComponentWiredTest" public="true">
+    <interface>it.com.jiramonk.comppage.MyComponentWiredTest</interface>
+    <service-properties>
+      <entry key="inProductTest" value="true"/>
+    </service-properties>
+  </component>
+</atlassian-plugin>

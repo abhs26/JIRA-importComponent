@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2018-04-21T23:48:49+0000
+Atlassian-Plugin-Key: com.jiramonk.comppage.compimp
+Bnd-LastModified: 1524354537415
+Build-Jdk: 1.8.0_161
+Built-By: Administrator
+Bundle-Description: This is the com.jiramonk.comppage:compimp plugin for
+  Atlassian Refapp.
+Bundle-DocURL: http://www.jiramonks.com/
+Bundle-ManifestVersion: 2
+Bundle-Name: compimp
+Bundle-SymbolicName: com.jiramonk.comppage.compimp
+Bundle-Vendor: jiramonks Company
+Bundle-Version: 0.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.jiramonk.comppage.api;version="0.1.0"
+Import-Package: org.springframework.osgi.context;resolution:=optional,or
+ g.springframework.osgi.service.exporter.support;resolution:=optional,or
+ g.springframework.osgi.service.importer.support;resolution:=optional,or
+ g.eclipse.gemini.blueprint.context;resolution:=optional,org.eclipse.gem
+ ini.blueprint.service.exporter;resolution:=optional,org.eclipse.gemini.
+ blueprint.service.exporter.support;resolution:=optional,org.eclipse.gem
+ ini.blueprint.service.importer.support;resolution:=optional,com.atlassi
+ an.jira.plugin.projectpanel,com.atlassian.jira.plugin.projectpanel.impl
+ ,com.atlassian.jira.project.browse,com.atlassian.plugin.osgi.factory,co
+ m.atlassian.sal.api,com.atlassian.sal.api.pluginsettings,com.atlassian.
+ sal.api.transaction,com.atlassian.sal.api.user,com.google.common.base,c
+ om.google.common.collect,com.jiramonk.comppage.api;version="[0.1,1)",ja
+ vax.annotation,javax.inject,javax.servlet.http,javax.ws.rs,javax.ws.rs.
+ core,javax.xml.bind.annotation,org.apache.commons.lang,org.apache.commo
+ ns.logging,org.osgi.framework,org.slf4j,org.slf4j.helpers,org.slf4j.spi
+ ,org.springframework.aop.support,org.springframework.beans,org.springfr
+ amework.beans.factory,org.springframework.beans.factory.annotation,org.
+ springframework.beans.factory.config,org.springframework.beans.factory.
+ parsing,org.springframework.beans.factory.support,org.springframework.b
+ eans.factory.xml,org.springframework.context.annotation,org.springframe
+ work.core.io,org.springframework.stereotype,org.springframework.util,or
+ g.w3c.dom
+Originally-Created-By: Apache Maven Bundle Plugin
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Spring-Context: *
+Tool: Bnd-2.4.1.201501161923

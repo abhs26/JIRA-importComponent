@@ -1,0 +1,7 @@
+com\jiramonk\comppage\impl\MyPluginComponentImpl.class
+com\jiramonk\comppage\impl\ConfigResource$1.class
+com\jiramonk\comppage\impl\ConfigResource$2.class
+com\jiramonk\comppage\impl\ConfigResource.class
+com\jiramonk\comppage\api\MyPluginComponent.class
+com\jiramonk\comppage\impl\ConfigResource$Config.class
+com\jiramonk\comppage\jira\tabpanels\compImpProjectTabPanel.class
